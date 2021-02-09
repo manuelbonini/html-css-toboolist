@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.logo-text{
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+/* main*/
+
+.link{
+    margin-left: 30px;
+    padding: 10px 0px;
+}
+
+.link-1{
+    display: inline-block;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px 10px;
+    background-color: lightblue;
+}
+
+.link-2{
+    display: inline-block;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 3px 10px;
+}
+
+/* task */
+
+ul{
+    list-style-type: none;
+}
+
+.task{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+li h3{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+li .entity{
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.entity-check{
+    color: lightgreen;
+    vertical-align: middle;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.entity-box{
+    color: red;
+    vertical-align: middle;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.editorial{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: lightblue;
+}
+
+.q1-goals{
+    border: 2px solid violet;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: violet;
+}
+
+.recruiting{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: greenyellow;
+}
+
+.mobile{
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: orange;
+}
+
+.website{
+    border: 2px solid pink;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: pink;
+}
+
+.sales{
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px 10px;
+    color: white;
+    background-color: lightgreen;
+}
